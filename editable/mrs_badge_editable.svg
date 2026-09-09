@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 1008 1067" width="1008" height="1067"
+     font-family="Georgia, 'Times New Roman', serif">
+  <!-- ============================================================
+       MRS by Trebor - editable badge
+       Layers (bottom to top): base art, MRS text, ribbon text,
+       OIHL logo, your logo.
+       Open in Inkscape / Illustrator / Figma, or use index.html
+       in this folder for a drag-and-drop browser editor.
+       Every layer is a <g> with data-x/data-y/data-s/data-r that
+       the editor uses; move/resize freely.
+       ============================================================ -->
+  <defs>
+    <linearGradient id="chrome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0"    stop-color="#ffffff"/>
+      <stop offset="0.35" stop-color="#d8d8d8"/>
+      <stop offset="0.50" stop-color="#9a9a9a"/>
+      <stop offset="0.58" stop-color="#f2f2f2"/>
+      <stop offset="0.80" stop-color="#c8c8c8"/>
+      <stop offset="1"    stop-color="#8b8b8b"/>
+    </linearGradient>
+  </defs>
+
+  <g id="layer-base" data-name="Badge art" data-kind="image"
+     data-x="0" data-y="0" data-s="1" data-r="0"
+     transform="translate(0 0) rotate(0) scale(1)">
+    <image id="base-img" href="assets/badge_base_clean.png"
+           x="0" y="0" width="1008" height="1067"
+           preserveAspectRatio="xMidYMid meet"/>
+  </g>
+
+  <g id="layer-mrs" data-name="MRS text" data-kind="text"
+     data-x="504" data-y="560" data-s="1" data-r="0"
+     transform="translate(504 560) rotate(0) scale(1)">
+    <text text-anchor="middle" dominant-baseline="central"
+          font-size="280" font-weight="bold" letter-spacing="8"
+          fill="none" stroke="#c9971f" stroke-width="26"
+          stroke-linejoin="round">MRS</text>
+    <text text-anchor="middle" dominant-baseline="central"
+          font-size="280" font-weight="bold" letter-spacing="8"
+          fill="url(#chrome)" stroke="#8e1212" stroke-width="10"
+          paint-order="stroke" stroke-linejoin="round">MRS</text>
+  </g>
+
+  <g id="layer-ribbon" data-name="Ribbon text" data-kind="text"
+     data-x="504" data-y="788" data-s="1" data-r="0"
+     transform="translate(504 788) rotate(0) scale(1)">
+    <text text-anchor="middle" dominant-baseline="central"
+          font-size="62" letter-spacing="3"
+          fill="#f6d7a0" stroke="#5a0d0d" stroke-width="2"
+          paint-order="stroke">by Trebor</text>
+  </g>
+
+  <g id="layer-oihl" data-name="OIHL logo" data-kind="image"
+     data-x="504" data-y="940" data-s="1" data-r="0"
+     transform="translate(504 940) rotate(0) scale(1)">
+    <image id="oihl-img" href="assets/oihl_logo.png"
+           x="-140" y="-47" width="280" height="94"/>
+  </g>
+
+  <g id="layer-yours" data-name="Your logo" data-kind="image"
+     data-x="504" data-y="560" data-s="1" data-r="0"
+     transform="translate(504 560) rotate(0) scale(1)"
+     style="display:none">
+    <rect x="-160" y="-80" width="320" height="160"
+          fill="none" stroke="#888888" stroke-dasharray="10 6" stroke-width="3"/>
+    <text text-anchor="middle" dominant-baseline="central"
+          font-size="30" fill="#888888">your logo (load in editor)</text>
+    <image id="yours-img" href="" x="0" y="0" width="0" height="0"
+           style="display:none"/>
+  </g>
+</svg>
